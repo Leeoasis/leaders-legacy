@@ -80,6 +80,7 @@ const SectionTitle = ({ kicker, title, subtitle }) => (
 export default function HomePage() {
   // Carousel scroll ref
   const carouselRef = useRef(null);
+  // eslint-disable-next-line no-unused-vars
   const [scrollPos, setScrollPos] = useState(0);
 
   const scrollAmount = 380; // one card width
